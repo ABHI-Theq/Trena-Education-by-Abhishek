@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trena Education - Continue learning Education</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <div class="navbar background h-nav-resp">
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <ul class="nav-list v-class-resp">
+            <div class="logo"><img src="education.png" alt="logo"></div>
+            <li><a href="#top">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact-us">Contact Us</a></li>
+        </ul>
+        <div class="rightnav v-class-resp">
+            <input type="text" name="search" id="search" placeholder="Search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+    </div>
+    <section class="firstSection background">
+        <div class="box-main">
+            <div class="firstHalf">
+                <p class="text-big">The future of education is Here</p>
+                <p class="text-small">In this world of billions of peoople
+                    . we are here to provide across the
+                    world.This will help our future being Secured. Educational content in online form will
+                    help to do it quickly and be having great success.</p>
+                <div class="buttons">
+                    <button class="btn">Subscribe</button>
+                    <button class="btn">Watch videos
+                    </button>
+                </div>
+            </div>
+            <div class="secHalf">
+                <img src="lap.jpg" alt="Laptop img">
+            </div>
+        </div>
+    </section>
+    </div>
+    <div id="services">
+    <section class="section">
+        <div class="paras">
+            <p class="sectionTag text-big">The end of your search finishes here</p>
+            <p class="sectionsubTag text-small">Knowledge is a form of awareness or familiarity. It is often understood
+                as awareness of facts or as practical skills, and may also mean familiarity with objects or situations.
+                Knowledge of facts, also called propositional knowledge, is often defined as true belief that is
+                distinct from opinion or guesswork by virtue of justification. While there is wide agreement among
+                philosophers that propositional knowledge is a form of true belief, many controversies in philosophy
+                focus on justification. This includes questions like whether justification is needed at all, how to
+                understand it, and whether something else besides it is needed. These controversies intensified due to a
+                series of thought experiments by Edmund Gettier and have provoked various alternative definitions. Some
+                of them deny that justification is necessary and suggest alternative criteria. Others accept that
+                justification is an essential aspect and formulate additional requirements.
+
+            </p>
+        </div>
+        <div class="thumbnail">
+            <img src="big3.jpg" alt="thumbnail" class="thum">
+        </div>
+    </section>
+    <section class="section section-Left">
+        <div class="paras p-left">
+            <p class="sectionTag text-big">The globe of information and Education</p>
+            <p class="sectionsubTag text-small">Education is the transmission of knowledge, skills, and character
+                traits. There are many debates about its precise definition, for example, about which aims it tries to
+                achieve. A further issue is whether part of the meaning of education is that the change in the student
+                is an improvement. Some researchers stress the role of critical thinking to distinguish education from
+                indoctrination. These disagreements affect how to identify, measure, and improve forms of education. The
+                term can also refer to the mental states and qualities of educated people. Additionally, it can mean the
+                academic field studying education.These disagreements affect how to identify, measure, and improve forms
+                of education. The
+                term can also refer to the mental states and qualities of educated people. Additionally, it can mean the
+                academic field studying education.</p>
+        </div>
+        <div class="thumbnail">
+            <img src="big2.jpg" alt="thumbnail" class="thum">
+        </div>
+    </section>
+    <section class="section">
+        <div class="paras">
+            <p class="sectionTag text-big">The platform where you learn with surfing</p>
+            <p class="sectionsubTag text-small">Learning is the process of acquiring new understanding, knowledge,
+                behaviors, skills, values, attitudes, and preferences. The ability to learn is possessed by humans,
+                animals, and some machines; there is also evidence for some kind of learning in certain plants .Some
+                learning is immediate, induced by a single event (e.g. being burned by a hot stove), but much skill and
+                knowledge accumulate from repeated experiences. The changes induced by learning often last a
+                lifetime, and it is hard to distinguish learned material that seems to be "lost" from that which cannot
+                be retrieved.The changes induced by learning often last a
+                lifetime, and it is hard to distinguish learned material that seems to be "lost" from that which cannot
+                be retrieved.</p>
+        </div>
+        <div class="thumbnail">
+            <img src="big1.jpg" alt="thumbnail" class="thum">
+        </div>
+    </section>
+</div>
+  <form action="">
+      <div class="contact">
+        <h2 id="contact-us">Contact Us</h2>
+        <input type="text" id="Name" class="form-input" placeholder="Enter name" />
+
+        <input type="email" id="email" class="form-input" placeholder="Enter Email" />
+
+        <input type="number" id="age" class="form-input" placeholder=" Enter Age">
+        <div class="gen form-input">
+            Male <input type="radio" name="gender" class="g-style">
+            Female <input type="radio" name="gender" class="g-style">
+            Others <input type="radio" name="gender" class="g-style">
+        </div>
+        <textarea name="" class="form-input" cols="30" rows="10" placeholder="Describe yourself"></textarea>
+        <div class="form-buttons">
+            <input type="submit" class="btn form-btn" value="Submit" />
+            <input type="reset" class="btn form-btn" value="Reset" />
+        </div>
+    </div>
+</form>
+    <footer class="text-footer">
+        Copyright &copy; 2027  Trena Education - All Rights Reserved
+    </footer>
+    <script>
+        burger=document.querySelector('.burger');
+        navbar=document.querySelector('.navbar');
+        navlist=document.querySelector('.nav-list');
+        rightnav=document.querySelector('.rightnav');
+        burger.addEventListener('click',()=>{
+            navbar.classList.toggle('h-nav-resp');
+            rightnav.classList.toggle('v-class-resp');
+            navlist.classList.toggle('v-class-resp');
+        }
+    )
+    </script>
+</body>
+
+</html>
